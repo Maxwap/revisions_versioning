@@ -5,6 +5,13 @@ git branch -M main
 git remote add origin https://github.com/Maxwap/revisions_versioning.git
 git push -u origin main
 
-$ git config --global user.name "John Doe"
-$ git config --global user.email johndoe@example.com
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+
+git diff <nom fichier>
+git log
+git show <sha du commit, que l'on peut récupérer avec git log>
+
+cat .git/config
+git pull
 
