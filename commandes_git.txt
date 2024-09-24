@@ -1,0 +1,9 @@
+git init => initialiser un projet
+git add . => etape de staging, pour choisir les fichiers qui contiennent les changements que l'on veut ajouter à la nouvelle version
+git commit -m "Premier commit" = > ajouter les changements à la nouvelle version
+git branch -M main
+git remote add origin https://github.com/Maxwap/revisions_versioning.git
+git push -u origin main
+
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
